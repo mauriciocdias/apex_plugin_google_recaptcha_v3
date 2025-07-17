@@ -52,7 +52,7 @@ You will get:
 | **Wallet Path**          | Oracle wallet path for HTTPS requests (optional)                           |
 | **Wallet Password**      | Oracle wallet password (optional)                                          |
 | **Verification URL**     | URL to the reCAPTCHA verification endpoint (default: `https://google.com/...`) |
-| **IP Address Function**  | PL/SQL expression to fetch client IP (default: `owa_util.get_cgi_env(...)`) |
+| **IP Address Function**  | PL/SQL expression to fetch client IP (default: `owa_util.get_cgi_env('REMOTE_ADDR')`) |
 | **JS URL for reCAPTCHA** | reCAPTCHA JavaScript loader URL (use `recaptcha.net` if `google.com` is blocked) |
 
 ---
