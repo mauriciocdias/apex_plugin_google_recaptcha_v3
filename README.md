@@ -82,7 +82,7 @@ You will get:
 
 ## 💡 Tips
 
-- Your submit button **must have Action=Defined by Dynamic Action**, not `submit`.
+- Your submit button **must have Action=Defined by Dynamic Action**, not `submit`. Otherwise your page will be submitted twice.
 - If your users block `google.com`, change the JS URL to `https://www.recaptcha.net/recaptcha/api.js`.
 - Use `apex_debug.enable` to trace plugin behavior during development.
 - The plugin sets session state with status like `RECAPTCHA-V3-SUCCESS`, `FAILED`, or `UNSUCESSFUL-CALL`.
