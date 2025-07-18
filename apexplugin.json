@@ -1,0 +1,34 @@
+{
+  "name" : "Google reCaptcha Version 3 Plugin",
+  "version" : "1.0",
+  "description" : "This Oracle APEX plugin implements Google reCAPTCHA v3",
+  "keywords" : ["Oracle","Apex","plugin","captcha","reCaptcha","noCaptcha","Security","Spam","robot"],
+  "homepage" : "https://github.com/mauriciocdias/apex_plugin_google_recaptcha_v3",
+  "bugs" : {
+    "url" : "https://github.com/mauriciocdias/apex_plugin_google_recaptcha_v3/issues",
+    "email" : "mauriciocdias@gmail.com"
+  },
+  "license" : "MIT",
+  "commercial" : "No",
+  "author" : {
+    "name" : "Maurício Carlos Dias",
+    "email" : "mauriciocdias@gmail.com",
+    "url" : "https://apex.oracle.com/pls/apex/r/mauriciocdias/google-recaptcha-v3-demo"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/mauriciocdias/apex_plugin_google_recaptcha_v3.git"
+  },
+ "oracle" : {
+    "versions" : ["19.0.0.0"],
+    "apex" : {
+      "versions" : ["5.2.0","18.1.0"],
+      "plugin" : {
+        "internalName" : "BR.GOOGLE_RECAPTCHA_V3_PLUGIN",
+        "type" : "item",
+        "demo" : "https://apex.oracle.com/pls/apex/r/mauriciocdias/google-recaptcha-v3-demo",
+        "previewImage" : "https://github.com/mauriciocdias/apex_plugin_google_recaptcha_v3/raw/refs/heads/main/reCaptcha_v3_apex_18_1.png"
+      }
+    }
+  }
+}
