@@ -1,7 +1,7 @@
 # Google reCaptcha v3 Plugin for Oracle APEX
 
 This Oracle APEX plugin implements **Google reCAPTCHA v3**, allowing you to validate human interactions without interrupting the user experience.  
-It is inspired by [Mohamed Zebib's reCAPTCHA v2 plugin](https://apex.world/ords/r/apex_world/apex-world/plug-in-details?p710_plg_int_name=ca.mzebib.captcha2&clear=710).
+It is inspired by [Mohamed Zebib's reCaptcha v2 plugin](https://github.com/mohamedzebib/apex_plugin_google_captcha_v2).
 
 > ✅ Compatible with APEX 5+  
 > 🌐 Supports restricted environments via recaptcha.net  
